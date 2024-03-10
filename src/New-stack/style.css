@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 48px;
+    width:100%;
+    background-color: bisque;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: flex-start; */
+    
+}
+nav> * {
+    cursor: pointer;
+}
+.icon-logo {
+    width: 200px;
+    height: 44px;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+
+}
+.a-p-t {
+    width: 250px;
+    height: 44px;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about:hover {
+
+    width: 49px;
+    height: 30px;
+    background-color: rgb(207, 123, 13);
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 4.5px;
+}
+.products:hover {
+    height: 30px;
+    width: 69px;
+    background-color: rgb(207, 123, 13);
+    border-radius: 4px;
+    padding-top: 4.5px;
+
+}
+.team:hover {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(207, 123, 13);
+    border-radius: 6px;
+    padding-top: 5px;
+
+}
+.searching-btn {
+    width: 550px;
+    height: 44px;
+    position: absolute;
+    left: 490px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input {
+    width: 440px;
+    padding-left: 16px;
+    height: 28px;
+    
+}
+.searching-btn>button {
+    height: 28px;
+}
+.log-n-sign {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 180px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+
+}
+.log-n-sign>button {
+    height: 28px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.sign-up {
+    background: blue;
+    color: white;
+
+}
+.log-in {
+    color: blue;
+}
+
